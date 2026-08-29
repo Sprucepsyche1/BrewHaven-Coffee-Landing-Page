@@ -1,0 +1,472 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>BrewHaven | Premium Coffee</title>
+
+    <link rel="stylesheet" href="coffeehouse.css">
+
+   
+</head>
+
+<body>
+
+
+    <header class="header">
+
+        <nav class="navbar">
+
+            <a href="#" class="logo">
+                ☕ Brew<span>Haven</span>
+            </a>
+
+            <button class="menu-btn" id="menuBtn">
+                ☰
+            </button>
+
+            <ul class="nav-links" id="navLinks">
+                <li>
+                    <a href="#home">Home</a>
+                </li>
+
+                <li>
+                    <a href="#products">Menu</a>
+                </li>
+
+                <li>
+                    <a href="#about">About</a>
+                </li>
+
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+
+            <button class="nav-btn" id="orderBtn">
+                Order Now
+            </button>
+
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <section class="hero" id="home">
+
+            <div class="hero-content">
+
+                <p class="small-title">
+                    ☕ PREMIUM COFFEE EXPERIENCE
+                </p>
+
+                <h1>
+                    Start Your Day With
+                    <span>The Perfect Coffee</span>
+                </h1>
+
+                <p class="hero-text">
+                    Discover freshly roasted coffee beans sourced from
+                    sustainable farms and crafted by expert baristas.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#products" class="primary-btn">
+                        Explore Menu →
+                    </a>
+
+                    <a href="#about" class="outline-btn">
+                        Learn More
+                    </a>
+
+                </div>
+
+                <div class="hero-stats">
+
+                    <div>
+                        <strong>10+</strong>
+                        <span>Years Experience</span>
+                    </div>
+
+                    <div>
+                        <strong>25K+</strong>
+                        <span>Happy Customers</span>
+                    </div>
+
+                    <div>
+                        <strong>20+</strong>
+                        <span>Coffee Varieties</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="hero-image">
+
+                <div class="coffee-circle">
+                    ☕
+                </div>
+
+                <div class="floating-card">
+                    ⭐ 4.9 Rating
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section class="products section" id="products">
+
+            <div class="section-heading">
+
+                <p>OUR SPECIAL MENU</p>
+
+                <h2>
+                    Popular <span>Coffee</span>
+                </h2>
+
+                <div class="heading-line"></div>
+
+                <p class="description">
+                    Carefully crafted beverages made with premium
+                    ingredients and lots of passion.
+                </p>
+
+            </div>
+
+
+            <div class="products-grid">
+
+
+            
+
+                <article class="product-card">
+
+                    <div class="product-image espresso">
+                        ☕
+                    </div>
+
+                    <div class="product-info">
+
+                        <div class="product-top">
+                            <h3>Espresso</h3>
+                            <span class="rating">★ 4.8</span>
+                        </div>
+
+                        <p>
+                            Rich and intense espresso with a smooth
+                            golden crema.
+                        </p>
+
+                        <div class="product-bottom">
+
+                            <strong>₹350.00</strong>
+
+                            <button class="cart-btn"
+                                data-product="Espresso"
+                                data-price="350.00">
+                                + Add
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+
+                <article class="product-card">
+
+                    <div class="product-image cappuccino">
+                        🥛
+                    </div>
+
+                    <div class="product-info">
+
+                        <div class="product-top">
+                            <h3>Cappuccino</h3>
+                            <span class="rating">★ 4.9</span>
+                        </div>
+
+                        <p>
+                            Smooth espresso combined with steamed milk
+                            and creamy foam.
+                        </p>
+
+                        <div class="product-bottom">
+
+                            <strong>₹449.00</strong>
+
+                            <button class="cart-btn"
+                                data-product="Cappuccino"
+                                data-price="449.00">
+                                + Add
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+
+                <article class="product-card">
+
+                    <div class="product-image cold-brew">
+                        🧊
+                    </div>
+
+                    <div class="product-info">
+
+                        <div class="product-top">
+                            <h3>Cold Brew</h3>
+                            <span class="rating">★ 4.7</span>
+                        </div>
+
+                        <p>
+                            Smooth and refreshing cold brew served
+                            chilled over ice.
+                        </p>
+
+                        <div class="product-bottom">
+
+                            <strong>₹210.00</strong>
+
+                            <button class="cart-btn"
+                                data-product="Cold Brew"
+                                data-price="210.00">
+                                + Add
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+        
+
+                <article class="product-card">
+
+                    <div class="product-image mocha">
+                        🍫
+                    </div>
+
+                    <div class="product-info">
+
+                        <div class="product-top">
+                            <h3>Mocha</h3>
+                            <span class="rating">★ 4.8</span>
+                        </div>
+
+                        <p>
+                            Espresso blended with rich chocolate and
+                            creamy steamed milk.
+                        </p>
+
+                        <div class="product-bottom">
+
+                            <strong>₹435.00</strong>
+
+                            <button class="cart-btn"
+                                data-product="Mocha"
+                                data-price="435.00">
+                                + Add
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+
+        <section class="about section" id="about">
+
+            <div class="about-image">
+
+                <div class="coffee-cup">
+                    ☕
+                </div>
+
+            </div>
+
+
+            <div class="about-content">
+
+                <p class="small-title">
+                    WHY BREWHAVEN?
+                </p>
+
+                <h2>
+                    Coffee Made With
+                    <span>Passion</span>
+                </h2>
+
+                <p>
+                    At BrewHaven, we believe that great coffee is more
+                    than just a drink. It's an experience.
+                </p>
+
+                <p>
+                    Our beans are carefully selected from sustainable
+                    farms around the world and roasted to bring out
+                    their unique flavors.
+                </p>
+
+
+                <div class="features">
+
+                    <div class="feature">
+                        <span>✓</span>
+
+                        <div>
+                            <h3>100% Fresh Beans</h3>
+                            <p>
+                                Freshly roasted for maximum flavor.
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="feature">
+                        <span>✓</span>
+
+                        <div>
+                            <h3>Ethically Sourced</h3>
+                            <p>
+                                Supporting sustainable coffee farms.
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="feature">
+                        <span>✓</span>
+
+                        <div>
+                            <h3>Expert Baristas</h3>
+                            <p>
+                                Professionally crafted beverages.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <section class="cta">
+
+            <div>
+
+                <p>READY FOR YOUR NEXT CUP?</p>
+
+                <h2>
+                    Your Perfect Coffee
+                    <span>Is Waiting.</span>
+                </h2>
+
+            </div>
+
+            <button class="primary-btn" id="ctaBtn">
+                Order Coffee ☕
+            </button>
+
+        </section>
+
+    </main>
+
+
+    <footer id="contact">
+
+        <div class="footer-container">
+
+            <div class="footer-brand">
+
+                <a href="#" class="logo">
+                    ☕ Brew<span>Haven</span>
+                </a>
+
+                <p>
+                    Premium coffee crafted with passion,
+                    one cup at a time.
+                </p>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h3>Quick Links</h3>
+
+                <a href="#home">Home</a>
+                <a href="#products">Menu</a>
+                <a href="#about">About</a>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h3>Opening Hours</h3>
+
+                <p>Mon - Fri: 6AM - 8PM</p>
+                <p>Saturday: 7AM - 9PM</p>
+                <p>Sunday: 8AM - 7PM</p>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h3>Follow Us</h3>
+
+                <div class="socials">
+                    <a href="#" >f</a>
+                    <a href="#">◎</a>
+                    <a href="#">𝕏</a>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="copyright">
+            © 2026 BrewHaven. All Rights Reserved. ☕
+        </div>
+
+    </footer>
+
+
+    <div class="toast" id="toast">
+        Coffee added to cart! ☕
+    </div>
+
+
+
+</body>
+
+</html>
